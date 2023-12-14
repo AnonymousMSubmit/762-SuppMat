@@ -1,1 +1,38 @@
+This part is the information statistics of the members who participated in the interview. 
 
+
+		TABLE: Satistical analysis of interview participants
+┌---┬---------┬----┬----------┬-------------------------------┬----------┐
+│ID │Type     │Year│Experience│Selected Reason                │Confidence│
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D1 │Volunteer│25  │    Y     │Senior Driver                  │4         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D2 │Volunteer│23  │    Y     │Senior Driver                  │5         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D3 │Volunteer│17  │    Y     │Senior Driver                  │4         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D4 │Volunteer│24  │    Y     │Senior Driver                  │5         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D5 │Volunteer│15  │    Y     │Traffic Police                 │5         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D6 │Volunteer│24  │    Y     │Professional Driver            │5         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D7 │Volunteer│21  │    Y     │Professional Driver            │4         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D8 │Volunteer│20  │    Y     │Senior Driver                  │5         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D9 │Volunteer│12  │    N     │Senior Driver                  │3         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│D10│Volunteer│14  │    Y     │Former Traffic Police          │5         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│E1 │Expert   │5   │    Y     │Smart Transportation Researcher│5         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│E2 │Expert   │-   │    N     │Autonomous Driving Researcher  │4         │
+├---┼---------┼----┼----------┼-------------------------------┼----------┤
+│E3 │Expert   │7   │    Y     │Electric Vehicle Engineer      │4         │
+└---┴---------┴----┴----------┴-------------------------------┴----------┘
+1: Year represents the participant’s driving year.
+2: Experience represents whether the participant has experience in using autonomous
+driving systems (ADS) or advanced driving assisted systems (ADAS).
+3: Confidence represents the participant’s confidence in their own scoring results (From
+1-5, 1 represents the lowest confidence, 5 represents the highest confidence).
