@@ -7,7 +7,7 @@
 
 - [introduction](#introduction)
 - [Pre-requirement](#pre-requirement)
-- [Install](#install)
+- [Setup](#setup)
 - [Usage](#usage)
 
 - 
@@ -22,7 +22,7 @@ The project will be available after our paper is accepted.
 
 ### Any optional sections
 
-## Install
+## Setup
 
 This module depends upon a knowledge of [Markdown]().
 
