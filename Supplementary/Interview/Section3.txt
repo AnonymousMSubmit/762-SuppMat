@@ -1,1 +1,131 @@
+Participant Preference Survey
+The purpose of this Section is to investigate and understand participants' attention preferences during driving. This Section can help us better resolve differences among individual participants.
+
+
+Part I: Driving Scenario
+1.	In the following 17 scenarios, which driving scenario do you think is more likely to cause accidents or violations? Please rank them (1-17: 1 is the most accident-prone and 17 is the least accident-prone):
+() LaneFollow
+() LaneChange
+() laneBorrow
+() ProtectedLeftTurn
+() ProtectedRightTurn
+() ProtectedPass
+() StopSignProtected
+() UnProtectedLeftTurn
+() UnProtectedRightTurn
+() UnProtectedPass
+() PullOver
+() ParkAndGo
+() EmergencyStop
+() EmergencyPullOver
+() U-turn
+() ValetPark
+() YieldSignProtected
+
+2.	For the driver, what do you think are the main factors affecting the driver's judgment in each scenario (choose one option for each scenario):
+2-1	LaneFollow
+()Pedestrian
+()NPC
+()Others
+
+2-2	LaneChange
+()Pedestrian
+()NPC
+()Others
+
+2-3	laneBorrow
+()Pedestrian
+()NPC
+()Others
+
+2-4	ProtectedLeftTurn
+()Pedestrian
+()NPC
+()Others
+
+2-5	ProtectedRightTurn
+()Pedestrian
+()NPC
+()Others
+
+2-6	ProtectedPass
+()Pedestrian
+()NPC
+()Others
+
+2-7	StopSignProtected
+()Pedestrian
+()NPC
+()Others
+
+2-8	UnProtectedLeftTurn
+()Pedestrian
+()NPC
+()Others
+
+2-9	UnProtectedRightTurn
+()Pedestrian
+()NPC
+()Others
+
+2-10	UnProtectedPass
+()Pedestrian
+()NPC
+()Others
+
+2-11	PullOver
+()Pedestrian
+()NPC
+()Others
+
+2-12	ParkAndGo
+()Pedestrian
+()NPC
+()Others
+
+2-13	EmergencyStop
+()Pedestrian
+()NPC
+()Others
+
+2-14	EmergencyPullOver
+()Pedestrian
+()NPC
+()Others
+
+2-15	U-turn
+()Pedestrian
+()NPC
+()Others
+
+2-16	ValetPark
+()Pedestrian
+()NPC
+()Others
+
+2-17	YieldSignProtected
+()Pedestrian
+()NPC
+()Others
+
+3	Are there any situations other than the above 17 driving scenarios? If so, please list them (regardless of the difference between intersections):
+
+
+
+Part II: Environment Condition
+4	Do you think the weather (such as rain, snow, fog) and time of day (such as day, or night) will have an impact on driving:
+() Yes
+() No
+
+5. If yes, please rank the four kinds of weather (1-4: 1 is the most accident-prone and 4 is the least accident-prone):
+	() Sunny
+	() Rainy
+	() Snowy
+	() Foggy
+
+6. Please sort the two time periods (1-2: 1 is accident-prone, 2 is relatively accident-prone):
+	() Day
+	() Night
+
+7. If question 4 is no, please explain your reason:
 
