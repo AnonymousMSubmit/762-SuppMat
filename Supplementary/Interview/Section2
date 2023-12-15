@@ -1,0 +1,34 @@
+Interview Evaluation For Crash Report
+  
+This Section mainly discribes how we evaluate the experimental results related to the crash report in the interview.
+  
+  
+  
+CR1
+Do you think the Road Type / Map in the constructed scenario reproduce the crash in report? Please score according to the degree of compliance. (From 1 to 5)
+    
+CR1-1
+Please explain what you think is lacking.
+   
+  
+     
+CR2
+Do you think the vehicle trajectory in the constructed scenario reproduce the crash in report? Please score according to the degree of compliance. (From 1 to 5)
+    
+CR2-1
+Please explain what you think is lacking.
+    
+    
+     
+CR3
+Do you think the constructed scenario reproduce the crash in the report overall? Please score according to the degree of compliance. (From 1 to 5)
+        
+CR3-1
+Please explain what you think is lacking (Except for the parts mentioned in CR1-1 and CR2-1.).
+     
+
+       
+CR4
+Do you think the vehicle trajectory conforms to the physical trajectory in the real world? Please score according to the degree of compliance. (From 1 to 5)
+           
+             
