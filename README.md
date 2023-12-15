@@ -25,7 +25,7 @@ The project will be available after our paper is accepted.
 ### Any optional sections
 
 ## Setup
-
+Add the files in the Map to path/Carla.  
 This module depends upon a knowledge of [Markdown]().
 
 ```
