@@ -1,0 +1,45 @@
+Interview Evaluation For Disengagement Report
+  
+This Section mainly discribes how we evaluate the experimental results related to the disengagement report in the interview.
+  
+  
+  
+DR0
+Do you have a clear understanding of the construction of the disengagement report and the responsibilities of the safety operator?
+ 
+     
+  
+DR1
+If you were the safety operator who recorded the report, will you choose to take over the vehicle? Please score according to the degree of compliance. (From 1 to 5)
+  
+DR1-1 
+If you chose to take over the vehicle, what description in the report do you think made you think an unsafe accident might occur?
+  
+DR1-2
+If you chose not to take over the vehicle, for what reason do you think the safety operator took over the vehicle? What are your differences?  
+
+    
+  
+DR2
+If you were the safety operator who recorded the report, do you think the generated scenario contained factors that led you to take over the vehicle? Please score according to the degree of compliance. (From 1 to 5)
+  
+DR2-1
+What factors do you think that affect vehicle driving safety are not well simulated? From static factors(road map, traffic sign, traffic light or others), dynamic factors(Pedestrian, NPC vehicle, AV, traffic congestion or others), and environment(weather, time). 
+  
+  
+  
+DR3
+Do you think the generated driving scenarios would happen in reality? Please score according to the degree of compliance. (From 1 to 5)
+  
+DR3-1
+Why do you think this scenario is difficult to happen in reality? 
+    
+DR3-2
+Why do you think similar scenes appear in the report?   
+     
+ 
+               
+DR4
+Do you think the vehicle trajectory conforms to the physical trajectory in the real world? Please score according to the degree of compliance. (From 1 to 5)
+               
+         
