@@ -59,6 +59,7 @@ Advanced options for replay:
 ```
 client.replay_file("/path/xx/fileName", start, duration, camera)
 ```
+
 Start: The time you want to start the simulation    
 Duration: The number of seconds you want to play    
 Camera: The camera will focus and follow the actor     
