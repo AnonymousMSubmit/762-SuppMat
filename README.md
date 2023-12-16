@@ -7,7 +7,6 @@
 
 - [introduction](#introduction)
 - [Pre-requirement](#pre-requirement)
-- [Setup](#setup)
 - [Dataset](#Dataset)
 - [Replay](#Replay)
 
@@ -31,7 +30,6 @@ This module depends upon a knowledge of [Markdown]().
 ```
 ```
 
-### Any optional sections
 
 ## Dataset
 In order to facilitate research and discussion in related fields, the reports we use are all real open source reports recorded and released by officials.  
