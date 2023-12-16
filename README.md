@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-- [introduction](#introduction)
+- [Introduction](#introduction)
 - [Pre-requirement](#pre-requirement)
 - [Dataset](#Dataset)
 - [Replay](#Replay)
