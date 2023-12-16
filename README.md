@@ -21,14 +21,10 @@ The project will be available after our paper is accepted.
 
 ## Pre-requirement
 
-### Any optional sections
+### Carla Simulator 0.9.14/0.9.15 Compiled version (Recommended)
+### UE4 Engine (Related to Carla version)
+### Other Carla-related pre-requirement
 
-## Setup
-Add the files in the Map to path/Carla.  
-This module depends upon a knowledge of [Markdown]().
-
-```
-```
 
 
 ## Dataset
@@ -41,11 +37,24 @@ NHTSA Crash Report: https://crashviewer.nhtsa.dot.gov/LegacyNMVCCS/Search
   
 
 ## Replay
+### Setup
+Move the files in the Map folder into Carla's map directory
+   
+Replay the log file in the demo   
+Please find the Intro.txt of demo for more details of the demo replay     
+Start Carla:            
+```./CarlaUE4.sh
+Load Map using Carla util:
+```python3 config.py --map XX
+The loaded map ID is in the corresponding log file. Failure to build the map in advance may cause the replay time to be out of sync or the viewing angle to be abnormal.     
+Replay log:      
+```client.replay_file("/path/xx/fileName")
+Advanced options for replay:    
+```client.replay_file("/path/xx/fileName", start, duration, camera)
+Start: The time you want to start the simulation    
+Duration: The number of seconds you want to play    
+Camera: The camera will focus and follow the actor     
 
-```
-```
+Notice: If you have run Carla files before, please make sure you have refreshed the environment. The replay lag is caused by Carla recording/replaying.   
 
-Note: The `license` badge image link at the top of this file should be updated with the correct `:user` and `:repo`.
-
-### Any optional sections
 
