@@ -1,1 +1,8 @@
 Introduction of demostration files  
+
+The demo contains three case studies. They correspond to collision, law-breaking, and mission failure, respectively.      
+      
+The recording of the Collision case is described in the log file. This case can be replayed in Carla. We use dynamic videos to show the trajectory and collision results (Wilde turn at multi-lane) of the aggressive NPC driver described in the disengagement report.      
+
+For law-breaking and mission failure, we show specific violation scenarios by enlarging detailed figures. Mission failure is caused by Double-park vehicles in the disengagement report. Specifically, on multi-lane roads, when there are vehicles parked in both roadside parking spaces and adjacent lanes, autonomous vehicles will choose to wait for the road to clear rather than change lanes. This behavior reduces traffic efficiency.        
+Law-breaking is obtained based on our Evolution testing extension. Because the test scenarios in the disengagement report were all conducted under good weather conditions, we considered the impact of changes in the weather environment on the perception and planning of the autonomous driving system during mutation. Figures show the autonomous driving system's ability to detect traffic lights and pass intersections in foggy and sunny conditions, respectively. On foggy days with low road visibility, the tested vehicle failed to adopt a more conservative driving strategy based on the weather, resulting in a violation of the signal light policy.
