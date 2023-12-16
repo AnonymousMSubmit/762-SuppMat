@@ -45,20 +45,20 @@ Please find the Intro.txt of demo for more details of the demo replay
 Start Carla:            
 ```
 ./CarlaUE4.sh
-
+```
 Load Map using Carla util:
 ```
 python3 config.py --map XX
-
+```
 The loaded map ID is in the corresponding log file. Failure to build the map in advance may cause the replay time to be out of sync or the viewing angle to be abnormal.     
 Replay log:      
 ```
 client.replay_file("/path/xx/fileName")
-
+```
 Advanced options for replay:    
 ```
 client.replay_file("/path/xx/fileName", start, duration, camera)
-
+```
 Start: The time you want to start the simulation    
 Duration: The number of seconds you want to play    
 Camera: The camera will focus and follow the actor     
