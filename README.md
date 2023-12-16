@@ -44,6 +44,7 @@ Replay the log file in the demo
 Please find the Intro.txt of demo for more details of the demo replay     
 Start Carla:            
 ```./CarlaUE4.sh
+
 Load Map using Carla util:
 ```python3 config.py --map XX
 The loaded map ID is in the corresponding log file. Failure to build the map in advance may cause the replay time to be out of sync or the viewing angle to be abnormal.     
