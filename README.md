@@ -11,7 +11,8 @@
   
 ## Introduction  
 This repository provides some details and additions.  
-The project will be available after our paper is accepted.
+Our tests are based on generated DSL files. For general considerations, we will open source the DSL file database after Accept Notification to help the communities in related fields.
+Therefore, the project will be available after our paper is accepted.
 
 
 
