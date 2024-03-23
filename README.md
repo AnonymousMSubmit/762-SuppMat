@@ -21,6 +21,7 @@ Therefore, the project will be available after our paper is accepted.
 ### Carla Simulator 0.9.14/0.9.15 Compiled version (Recommended)
 ### UE4 Engine (Related to Carla version)
 ### Other Carla-related pre-requirement
+### Apollo 5.0 and Apollo-Carla Bridge
 
 
 
