@@ -6,4 +6,26 @@ These parameters may have been potentially connected in the real physical world.
 
 Therefore, we treat environment parameters as a set, $\Theta$. To be precise, we set up two sets to represent daytime and nighttime (i.e., $\Theta_{day}, \Theta_{night} $) and four sets to describe sunny days, rainy days, and foggy days (i.e., $\Theta_{sunny}, \Theta_{rain}, \Theta_{fog}, \Theta_{snow}$). A strength parameter, $k$, is used to indicate the intensity of the weather. In this way, the environmental factor can be expressed as $k*\Theta$. When we mutate weather and time, we only need to change the value of $k$. And when doing crossover, we directly crossover the environmental factors.
 
+Additionally, when we generate the scenarios, fine-grained parameters such as speed are initially set to defaults:
+
+  Pedestrian Initial Speed Default: 6 km/h
+
+  Vehicle/Platoon Initial Speed Default (multi-lane highway)  80 km/h
+
+  Vehicle/Platoon Initial Speed Default (protected intersection) 40 km/h
+
+  Vehicle/Platoon Initial Speed Default (bare intersection) 30 km/h
+
+  Vehicle/Platoon Initial Speed Default (multi-forked intersection) 60 km/h
+
+In addition to basic physical constraints, we also provide rule constraints for vehicles and pedestrians:
+
+  The pedestrian's initial position is on the sidewalk;
+
+  At intersections and multi-forked roads, the initial position of the vehicles should be more than 50m away from the intersection (this is to reserve sufficient distance to guide the vehicle);
+
+  The remaining initial phase time of the signal light should not be less than 3s, and the duration of the signal light color after the color change should not be less than 10s;
+
+  In the same driving lane, the initial distance between platoons should be greater than 20m;
+
 The purpose of this is to ensure that the test scenarios we generate conform to the laws of the real world.
