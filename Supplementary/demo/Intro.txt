@@ -2,7 +2,7 @@ Introduction of demostration files
 
 The demo contains three case studies. They correspond to collision, law-breaking, and mission failure, respectively. 
 
-The demo evaluation is based on an advanced end-to-end ADS, TCP[1] from Carla Autonomous Driving Leaderboard: https://leaderboard.carla.org/
+The demo evaluation is based on an advanced end-to-end ADS, more end-to-end ADSes can be found from Carla Autonomous Driving Leaderboard: https://leaderboard.carla.org/
 This is to prove that our work is applicable to various types of ADSes (both end-to-end and layered ADSes), because in the paper we have demonstrated the effectiveness of the work on Layered ADS, Apollo.
       
 The recording of the Collision case is described in the log file. This case can be replayed in Carla. We use dynamic videos to show the trajectory and collision results (Wilde turn at multi-lane) of the aggressive NPC driver described in the disengagement report.      
@@ -13,9 +13,3 @@ Law-breaking is obtained based on our Evolution testing extension. Because the t
 After acceptence, we will release more demos and the video results we use in interviewevaluation.
 
 
-[1] @inproceedings{tcp,
- title={Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline}, 
- author={Penghao Wu and Xiaosong Jia and Li Chen and Junchi Yan and Hongyang Li and Yu Qiao},
- booktitle={NeurIPS},
- year={2022},
-}
