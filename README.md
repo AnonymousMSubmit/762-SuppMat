@@ -14,6 +14,8 @@ This repository provides some details and additions.
 Our tests are based on generated DSL files. For general considerations, we will open source the DSL file database after Accept Notification to help the communities in related fields.
 Therefore, the project will be available after our paper is accepted.
 
+Currently, we provide some inplementation details of our work.
+
 
 
 ## Pre-requirement
