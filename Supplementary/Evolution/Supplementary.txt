@@ -1,1 +1,9 @@
 Evolution Testing: 
+
+In the paper, we claims that the weather and time are physically continuous and can be operated directly. It is worth noting that environmental variables (i.e., weather and time) are set by multiple independent parameters in simulators, such as Carla. 
+
+These parameters may have been potentially connected in the real physical world. For example, road friction is usually proportional to rainfall. Instead, sunlight is generally inversely proportional to rainfall. And it is difficult to directly perform crossover and mutation on these parameters.
+
+Therefore, we treat environment parameters as a set, $\Theta$. To be precise, we set up two sets to represent daytime and nighttime (i.e., $\Theta_{day}, \Theta_{night} $) and four sets to describe sunny days, rainy days, and foggy days (i.e., $\Theta_{sunny}, \Theta_{rain}, \Theta_{fog}, \Theta_{snow}$). A strength parameter, $k$, is used to indicate the intensity of the weather. In this way, the environmental factor can be expressed as $k*\Theta$. When we mutate weather and time, we only need to change the value of $k$. And when doing crossover, we directly crossover the environmental factors.
+
+The purpose of this is to ensure that the test scenarios we generate conform to the laws of the real world.
